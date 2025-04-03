@@ -1,10 +1,11 @@
 import {Component} from '@angular/core';
 import {SidebarComponent} from './sidebar/sidebar.component';
 import {TopbarComponent} from './topbar/topbar.component';
+import {ContentComponent} from './content/content.component';
 
 @Component({
   selector: 'app-root',
-  imports: [SidebarComponent, TopbarComponent],
+  imports: [SidebarComponent, TopbarComponent, ContentComponent],
   template: `
     <!-- Page Wrapper -->
   <div id="wrapper">
@@ -14,6 +15,7 @@ import {TopbarComponent} from './topbar/topbar.component';
       <!-- Main Content -->
       <div id="content">
         <app-topbar></app-topbar>
+        <app-content></app-content>
       </div>
     </div>
   </div>
