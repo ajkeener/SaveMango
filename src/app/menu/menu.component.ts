@@ -2,15 +2,15 @@ import { Component } from '@angular/core';
 import {CommonModule} from '@angular/common';
 
 @Component({
-  selector: 'app-content',
+  selector: 'app-menu',
   imports: [CommonModule],
   template: `
-<!-- Content -->
- 
-<!-- End Content -->
+<!-- Menu -->
+    
+<!-- End Menu -->
   `,
-  styleUrls: ['./content.component.css'],
+  styleUrls: ['./menu.component.css'],
 })
-export class ContentComponent {
+export class MenuComponent {
   
 }
