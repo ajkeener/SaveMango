@@ -7,10 +7,11 @@ import {ContentComponent} from './content/content.component';
   selector: 'app-root',
   imports: [MenuComponent, TopbarComponent, ContentComponent],
   template: `
-    <app-menu></app-menu>
-    <app-topbar></app-topbar>
-    <app-content></app-content>
-    
+<div class="wrapper">
+  <app-menu></app-menu>
+  <app-topbar></app-topbar>
+  <app-content></app-content>
+</div>
   `,
   styleUrls: ['./app.component.css'],
 })

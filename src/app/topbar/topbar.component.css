@@ -1,0 +1,13 @@
+/*#F4BB44 - mango*/
+.topbar {
+    width:100%;
+    background-color:#FF5733;
+}
+
+.topbar-header p{
+    margin-bottom:0;
+}
+
+.topbar-header p, .topbar i{
+    color:#222;
+}
